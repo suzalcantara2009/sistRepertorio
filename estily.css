@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+h1{
+    margin: 0;
+    color: #593435;
+}
+.banner {
+    height: 60vh;
+    background-image: url(imagens/fundo.png);
+    background-position: center;
+    background-size: cover; /*preenche toda a tela*/
+
+}
+
+h3 {
+    color: #F9F4EF;
+    position: relative;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.buttonb1 {
+    display: block;
+    margin: auto;
+}
+
+.bloco1{
+    width: 200px;
+    height: 115px;
+    background-color: #B4005C;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.buttonb2 {
+    display: block;
+    margin: auto;
+}
+.bloco2{
+    width: 200px;
+    height: 115px;
+    background-color: #277913;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.buttonb3 {
+    display: block;
+    margin: auto;
+}
+.bloco3{
+    width: 200px;
+    height: 115px;
+    background-color: #C24886;
+    border-radius: 15px;
+    padding-top: 2px;    
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.blocos {
+    display: flex;
+    justify-content: center; /* centraliza os blocos */
+    align-items: flex-start; /* alinha pelo topo */
+    gap: 20px;
+    border: 3px solid red;
+}
