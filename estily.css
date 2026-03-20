@@ -1,25 +1,70 @@
 body {
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@font-face {
+    font-family: 'Keshia';
+    src: url('fontes/Keshia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fontes/LTInternet-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1{
     margin: 0;
-    color: #593435;
+    color: #dfd8ff;
+    font-size: 3rem;
+    font-family: 'Keshia', sans-serif;
+    padding-inline-start: 60px;
+    padding-inline-end: 100px;
 }
 .banner {
     height: 60vh;
-    background-image: url(imagens/fundo.png);
+    /*8background-image: url(imagens/fundo.png);*/
+    background-color: rgb(6, 6, 29);
     background-position: center;
     background-size: cover; /*preenche toda a tela*/
 
 }
 
 h3 {
-    color: #F9F4EF;
+    color:  #ffffff;
     position: relative;
     text-align: center;
     line-height: 1.1;
+    
 }
 
+p {
+    color: #dfd8ff;
+    font-size:1.1rem;
+    font-family:'Regular', sans-serif;
+    padding-inline-start: 60px;
+    padding-inline-end: 100px;
+}
+
+.capaimg{
+    width: 150px;
+    border-radius: 200%;
+    padding: 9px;
+    border: 1px solid transparent;
+    
+    background:
+        linear-gradient(rgb(6, 6, 29))padding-box,    
+        linear-gradient(90deg, #dfd8ff, #46e3ff) border-box; /*tdç caixa de preenchimento*/
+}
+
+table {
+    padding: 50px;
+}
+
+/*
 .buttonb1 {
     display: block;
     margin: auto;
@@ -68,8 +113,4 @@ h3 {
 
 .blocos {
     display: flex;
-    justify-content: center; /* centraliza os blocos */
-    align-items: flex-start; /* alinha pelo topo */
-    gap: 20px;
-    border: 3px solid red;
-}
+    justify-content: center; /* centraliza os blocos */ 
